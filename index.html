@@ -11,7 +11,7 @@
 <body>
     <div class="wrapper">
         <div class="cover cover-left"></div>
-        <div class="cover cover-right turn"></div>
+        <div class="cover cover-right"></div>
 
         <div class="book">
             <!--profile page-->
@@ -74,7 +74,7 @@
                         <i class='bx bxs-chevron-right'></i>
                     </span>
                 </div>
-                <!--page 1 (education)-->
+                <!--page 2 (education)-->
                 <div class="page-back">
                     <h1 class="title">Education</h1>
                     <div class="workeduc-box">
@@ -97,7 +97,7 @@
                             <h3>Web Developer - Company</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quisquam magnam
                                  dolore quam mollitia sed nam numquam necessitatibus hic cupiditate recusandae,
-                                 ea fugiat deserunt unde, eum, est illo at. Quod?</p>
+                                 ea fugiat deserunt unde, eum, est illo at. Quod</p>
                         </div>
                     </div>
                     <span class="number-page">2</span>
@@ -110,8 +110,8 @@
             </div>
 
             <!--page3 & 4-->
-            <div class="book-page page-right turn" id="turn-2">
-                <!--page3 (my services)-->
+            <div class="book-page page-right turn " id="turn-2">
+                <!--page 3 (my services)-->
                 <div class="page-front">
                     <h1 class="title">My Services</h1>
 
@@ -148,7 +148,7 @@
                     <span class="number-page">3</span>
 
                     <!--prev button-->
-                    <span class="nextprev-btn back" data-page="turn-2">
+                    <span class="nextprev-btn" data-page="turn-2">
                         <i class='bx bx-chevron-right'></i>
                     </span>
                 </div>
@@ -196,13 +196,16 @@
                 </div>
             </div>
             <!--page 5 & 6-->
-            <div class="book-page page-right " id="turn-2">
+            <div class="book-page page-right turn " id="turn-3">
                 <!--page 5-->
                 <div class="page-front">
                     <h1 class="title">Latest Project</h1>
 
                     <div class="portfolio-box">
-                        <img src="portfolio.jpeg" alt="">
+                        <div class="img-box">
+                            <img src="portfolio.jpeg" alt="">
+                        </div>
+                        
 
                         <div class="info-box">
                             <div class="info-title">
@@ -219,10 +222,37 @@
                         </div>
                     </div>
                     
+                    <span class="number-page">5</span>
+
+                    <!--prev button-->
+                    <span class="nextprev-btn" data-page="turn-3">
+                        <i class='bx bx-chevron-right'></i>
+                    </span>
                 </div>
-                <!--page 6-->
+                <!--page 6(Contact me)-->
                 <div class="page-back">
                     <h1 class="title">Contact Me!</h1>
+
+                    <div class="contact-box">
+                        <form action="#">
+                            <input type="text" class="field" placeholder="Full Name" required>
+                            <input type="text" class="field" placeholder="Email Address" required>
+                            <textarea name="" id="" cols="30" rows="10" class="field" placeholder="Your Message" required></textarea>
+                            <input type="submit" class="btn" value="Send Message">
+                        </form>
+                    </div>
+
+                    <span class="number-page">6</span>
+
+                    <!--prev button-->
+                    <span class="nextprev-btn back" data-page="turn-3">
+                        <i class='bx bx-chevron-left'></i>
+                    </span>
+
+                    <a href="#" class="back-profile">
+                        <p>Profile</p>
+                        <i class='bx bxs-user'></i>
+                    </a>
                 </div>
             </div>
 
